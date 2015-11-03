@@ -1,6 +1,7 @@
 ;; This module allows you to view Java bytecode of a class file 
 ;; (With syntax-highlighting, which makes it much easier than reading
 ;;  the plain output produced by javap ;) )
+
 (add-to-list 'file-name-handler-alist '("\\.class$" . class-file-handler))
 
 (defun class-file-handler (op &rest args)
