@@ -38,16 +38,16 @@
 (setq-default indent-tabs-mode nil)
 
 ; load change EOL func
-(load "/home/vynguye/emacs-plugins/change-eol.el")
+(load "change-eol.el")
 
 ; hightlight error:
-;(load "/home/vynguye/emacs-plugins/highlight-it.el")
+;(load "highlight-it.el")
 
 ; generate/view bytecode from .class file(s)
-(load "/home/vynguye/emacs-plugins/class-file-handler.el")
+(load "class-file-handler.el")
 
 ; kill from current cursor to the end
-(load "/home/vynguye/emacs-plugins/kill-to-end.el")
+(load "kill-to-end.el")
 
 ; to show battery usage
 (display-battery-mode)
